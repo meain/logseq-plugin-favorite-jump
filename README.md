@@ -1,6 +1,9 @@
 ![Plugin Icon](./icon.png)
 
-# Logseq Favorite Jump
+# [WIP] Logseq Favorite Jump
+
+Provides keybindings to quickly jump between favorite pages
+`ctrl+{1..10}`: Jump to favorite page {1..10}
 
 --- 
 
