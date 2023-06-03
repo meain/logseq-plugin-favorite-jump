@@ -1,0 +1,26 @@
+{
+  "name": "logseq-plugin-favorite-jump",
+  "version": "0.3.0",
+  "description": "Use shortcuts to switch between favorite pages",
+  "main": "dist/index.html",
+  "targets": {
+    "main": false
+  },
+  "scripts": {
+    "build": "parcel build --no-source-maps index.html --public-url ./"
+  },
+  "keywords": [],
+  "author": "Abin Simon",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@logseq/libs": "^0.0.15"
+  },
+  "logseq": {
+    "id": "logseq-plugin-favorite-jump",
+    "title": "Favorite Jump",
+    "icon": "./icon.png"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0"
+  }
+}
