@@ -5,7 +5,8 @@ async function openPage(index) {
 
   if (index < pages.length) {
     const page = await logseq.Editor.getPage(pages[index]);
-    await logseq.Editor.openInRightSidebar(page.uuid);
+    // await logseq.App.openInRightSidebar(page.uuid); // open in sidebar
+    await logseq.App.pushState("page", { name: page.name });
   } else {
     logseq.UI.showMsg("Unknown page", "error");
   }
