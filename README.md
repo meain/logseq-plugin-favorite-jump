@@ -1,9 +1,12 @@
 ![Plugin Icon](./icon.png)
 
-# [WIP] Logseq Favorite Jump
+# Logseq Favorite Jump
 
 Provides keybindings to quickly jump between favorite pages
 `ctrl+{1..10}`: Jump to favorite page {1..10}
+
+You can configure the modifier key used (default: ctrl) and whether
+the page should open in the main editing are or right sidebar in settings.
 
 --- 
 
